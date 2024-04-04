@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #13161D;
+}
+.Card-Login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #082657;
+  border-radius: 12px;
+  width: 300px;
+  height: 600px;
+}
+.Title{
+  color: white;
+  font-size: 2rem;
+  padding: 6rem 0 3rem 0;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.Registre{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  
+  height: 150px;
+}
+.InputGmail{
+  display: none;
+}
+.Input-Box {
+  height: 2.5rem;
+  width: 15rem;
+  background: #1B2026;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: rgb(168,168,168);
+  padding: 0 10px;
+}
+.Div-Input i{
+  position: absolute;
+  line-height: 2.5rem;
+  color: rgb(168,168,168);
+  right: 4rem;
+}
+.Input-Box:hover{
+  border: solid #082657;
+  height: 2.7rem;
+  width: 15.2rem;
+  box-shadow: 0.1px 0.1px 10px #082657; 
+}
+/* #082657 */
+.Div-Rest{
+  display: flex;
+  justify-content: end;
+  width: 15rem;
+}
+.Res-Password{
+  color: #303F9F;
+  font-size: 10px;
+  height: 40px;
+}
+.Button-Login {
+  background: #283593;
+  color: white;
+  border: none;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.Div-TextRegist{
+  display: flex;
+  padding-top: 2.5rem;
+  color: #757575;
+}
+.Span-Sing,a{
+  margin-left: 5px;
+  color: #303F9F;
+}
+.Footer{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgb(39,44,50,20%);
+  border-radius:  0 0 12px 12px ;
+  gap: 30px;
+  height: 3rem;
+  width: 79%;
+  margin-top: 33.8rem;
+}
+.Name-Icon{
+  color: rgb(168,168,168);
+}
+.Icon-Footer{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
